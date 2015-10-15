@@ -1,0 +1,1133 @@
+/***********************************************************
+
+1. CSS RESET
+
+2. VARIABLES
+2.1 GRADIENTS
+2.2 CSS3 TRANSITIONS
+
+3. GLOBAL THEME STYLES
+
+4. TYPOGRAPHY
+4.1 HEADINGS
+4.2 PARAGRAPHS & LISTS
+4.3 LINKS
+4.4 PRODUCT ATTRIBUTES (name, description, price)
+4.5 RTE
+
+5. FORMS & COMPONENTS
+5.1 FORMS
+5.2 ALERTS
+5.3 BUTTONS
+
+6. GLOBAL PAGE LAYOUT
+
+7. SIDEBAR CONFIGURATION
+
+8. MAIN PAGE
+8.1 HEADER
+8.2 MEGAMENU
+8.3 NIVOSLIDER
+8.4 SHOWCASE
+8.5 MAIN PRODUCT LISTING
+8.6 FOOTER
+
+9. COLLECTION PAGES
+9.1 PAGES CONTENT
+9.2 BREADCRUMBS
+9.3 COLLECTION LISTING
+9.4 PAGINATION
+
+10. SIDEBAR WIDGETS
+10.1 LINKS LIST
+10.2 SIDEBAR PRODUCT LISTING
+
+11. SEARCH RESULTS PAGE
+
+12. PRODUCT PAGE
+12.1 PRODUCT IMAGES
+12.2 PRODUCT INFO
+12.3 PRODUCT PAGINATION
+12.4 RELATED PRODUCTS
+
+13. BLOG
+13.1 POSTS LISTING
+13.2 SINGLE POST
+
+14. CUSTOMER PAGES
+14.1 LOG IN
+14.2 ACCOUNT
+14.3 ADDRESSES
+14.4 ORDERS
+
+15. CART PAGE
+15.1 CART PRODUCTS
+15.2 GUEST CHECKOUT
+
+16. CONTACTS PAGE
+
+***********************************************************/
+
+
+
+/***************************************************************************
+                                1990px <
+***************************************************************************/
+
+@media (max-width: 1990px) {
+	
+/* 8.1. HEADER */
+#header .container {
+	max-width: 1600px;
+}
+
+.custom_header__1 {
+	padding-left: 0;
+}
+
+.header_currency {
+	padding-right: 0;
+}
+
+#logo {
+	padding-left: 0;
+}
+
+.header_search {
+	margin-right: 0;
+}
+#header_search_form {
+	right: 0;
+}
+
+
+
+/* 8.3 NIVOSLIDER */
+.slider_wrap {
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nivo-caption {
+	margin: -80px 0 0 0;
+	padding: 0 140px;
+}
+.nivo-caption h2 {
+	font-size: 100px;
+}
+
+.nivo-prevNav {
+	left: 50px;
+}
+.nivo-nextNav {
+	right: 50px;
+}
+
+
+
+/* 8.4 SHOWCASE */
+#showcase {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.custom_showcase a div {
+	margin: -45px 0 0 0;
+}
+
+
+
+/* 8.6 FOOTER */
+footer {margin: 0;}
+
+  
+
+}
+
+
+
+/***************************************************************************
+                                1600px <
+***************************************************************************/
+
+@media (max-width: 1600px) {
+	
+/* 8.1. HEADER */
+#header .container {
+	max-width: 1170px;
+}
+
+.header_left {
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+.custom_header__1 {
+	padding: 10px 0;
+	-webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,.2);
+	        box-shadow: 0 1px 0 0 rgba(255,255,255,.2);
+	}
+
+.header_center {
+	width: 30%;
+}
+
+.custom_header__2 {
+	text-align: left;
+}
+
+.header_right {
+	width: 70%;
+}
+
+
+
+/* 8.2. MEGAMENU */
+.sf-menu {
+	padding: 26px 20px 0 0;
+}
+.sf-menu > li > a {
+	font-size: 15px;
+}
+.sf-menu > li ~ li > a {
+	margin: 0 0 0 20px;
+}
+
+.sf-menu > li > ul {
+	width: 785px;
+	left: auto;
+	right: 0;
+}
+
+
+
+/* 8.3 NIVOSLIDER */
+.slider_wrap {
+	max-width: 1170px;
+}
+
+.nivo-caption {
+	margin: -62px 0 0 0;
+}
+.nivo-caption h2 {
+	font-size: 75px;
+}
+.nivo-caption h3 {
+	font-size: 35px;
+}
+
+
+
+/* 8.4 SHOWCASE */
+#showcase {
+	max-width: 1170px;
+}
+
+.custom_showcase a div {
+	margin: -15px 0 0 0;
+	padding: 0 15px;
+}
+.custom_showcase a h3 {
+	font-size: 25px;
+}
+.custom_showcase a p {
+	display: none;
+}
+
+
+
+}
+
+
+
+/***************************************************************************
+                                < 1200px
+***************************************************************************/
+
+@media (max-width: 1199px) {
+	
+/* 3. GLOBAL THEME STYLES */
+/* cookies policy message */
+.cookies_container {
+	text-align: center;
+}
+.cookies_container p {
+	display: block;
+	font-size: 15px;
+}
+.cookies_container .cookie_btn {
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+
+/* 8.1 HEADER */
+#header .container {
+	max-width: 970px;
+}
+
+
+
+/* 8.2 MEGAMENU */
+
+/* 8.3 NIVOSLIDER */
+.slider_wrap {
+	max-width: 970px;
+}
+
+.nivo-caption {
+	margin: -55px 0 0 0;
+	padding: 0 100px;
+}
+.nivo-caption h2 {
+	font-size: 60px;
+}
+.nivo-caption h3 {
+	font-size: 30px;
+}
+
+.nivo-prevNav {
+	left: 20px;
+}
+.nivo-nextNav {
+	right: 20px;
+}
+
+
+
+/* 8.4 SHOWCASE */
+#showcase {
+	max-width: 970px;
+}
+
+.custom_showcase a div {
+}
+.custom_showcase a h3 {
+	font-size: 22px;
+}
+.custom_showcase a span {
+	margin: 0;
+}
+
+
+
+/* PARALLAX BOX #1 */
+.parallax_box__1 {
+	padding: 100px 0;
+}
+.parallax_box__1 h3 {
+	font-size: 70px;
+}
+.parallax_box__1 h4 {
+	font-size: 30px;
+}
+
+
+
+/* 8.5 MAIN PRODUCT LISTING */
+
+
+
+/* PARALLAX BOX #2 */
+.parallax_box__2 {
+	padding: 100px 0;
+}
+.parallax_box__2 h3 {
+	font-size: 70px;
+}
+.parallax_box__2 h4 {
+	font-size: 30px;
+}
+
+
+
+/* HOMEPAGE SERVICES */
+#homepage_services h4 {
+	font-weight: normal;
+	font-size: 28px;
+}
+#homepage_services h4 a {
+	margin: 0 0 0 7px;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+
+
+/* 8.6 FOOTER */
+
+/* HOMEPAGE CAROUSEL */
+.index-scope .bx-wrapper {
+}
+.homepage_carousel .col-sm-3 {
+	width: 250px !important;
+}
+
+
+
+/* 10.2 SIDEBAR PRODUCT LISTING */
+.product_listing_sidebar .product {
+	text-align: center;
+}
+.product_listing_sidebar .product_img {
+	width: 100%;
+	float: none;
+}
+.product_listing_sidebar .product_info {
+	margin: 10px 0 0 0;
+}
+
+}
+
+
+
+/***************************************************************************
+                                < 992px
+***************************************************************************/
+
+@media (max-width: 992px) {
+	
+.cart_popup {
+	top: 0 !important;
+}
+
+/* 8.1 HEADER */
+#header .container {
+	max-width: 750px;
+}
+
+.header_center,
+.header_right {
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+.custom_header__2 {
+	padding: 0 0 12px 0;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,.2);
+	        box-shadow: 0 1px 0 0 rgba(255,255,255,.2);
+	}
+
+.header_user {
+	float: left;
+}
+
+
+
+/* 8.2 MEGAMENU */
+#megamenu.isStuck {
+	position: static !important;
+	left: auto;
+	right: auto;
+}
+.pseudoStickyBlock {
+	display: none !important;
+}
+
+#megamenu {
+  	width: 90%;
+	position: static !important;
+}
+  
+
+
+.megamenu_mobile {
+	margin: 0 15px 0 0;
+}
+
+.megamenu_mobile h2 {
+	height: 70px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0 35px 0 0;
+	font-size: 17px;
+	line-height: 69px;
+	color: #ffffff;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	position: relative;
+}
+.megamenu_mobile h2 i {
+	color: #ffffff;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.megamenu_mobile h2 i:before {
+	content: '\f0fe';
+	font: 20px/70px 'FontAwesome';
+}
+.megamenu_mobile h2.active i:before {
+	content: '\f146';
+}
+
+.megamenu_mobile ul {
+	width: 100%;
+}
+.megamenu_mobile li {
+	position: relative;
+}
+
+.megamenu_mobile a,
+.megamenu_mobile i {
+	color: #ffffff;
+}
+.megamenu_mobile a:hover {
+	color: #333333;
+}
+
+
+
+.submenu__1 {
+	padding: 15px;
+	background: #11bf8a;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	display: none;
+    -webkit-box-shadow:inset 0 1px 0 0 rgba(255,255,255,.3);
+            box-shadow:inset 0 1px 0 0 rgba(255,255,255,.3);
+}
+.submenu__1 > li > a {
+	display: block;
+	padding: 3px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.submenu__1 > li > a > i {
+	float: right;
+}
+.submenu__1 > li > a > i:before {
+	content: '\f0fe';
+	font: 23px 'FontAwesome';
+}
+.submenu__1 > li > a.active > i:before {
+	content: '\f146';
+}
+
+
+
+.submenu__2 {
+	padding: 10px 15px;
+	display: none;
+	}
+.submenu__2 > li {
+}
+.submenu__2 > li > a {
+	display: block;
+	padding: 5px 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.submenu__2 > li > a > i {
+	float: right;
+}
+.submenu__2 > li > a > i:before {
+	content: '\f0fe';
+	font: 20px 'FontAwesome';
+}
+.submenu__2 > li > a.active > i:before {
+	content: '\f146';
+}
+
+
+.submenu__3 {
+	padding: 5px 15px 15px 15px;
+	display: none;
+}
+
+
+
+/* 8.3 NIVOSLIDER */
+.slider_wrap {
+	max-width: 750px;
+}
+
+.nivo-caption {
+	margin: -40px 0 0 0;
+	padding: 0 100px;
+}
+.nivo-caption h2 {
+	font-size: 50px;
+}
+.nivo-caption h3 {
+	font-size: 20px;
+}
+
+
+
+/* 8.4 SHOWCASE */
+#showcase {
+	max-width: 750px;
+}
+
+.custom_showcase a div {
+}
+.custom_showcase a h3 {
+	font-size: 17px;
+}
+.custom_showcase a span {
+	margin: 0;
+	font-size: 14px;
+}
+
+
+
+/* HOMEPAGE TEXTS */
+.homepage_texts__item h4 {
+	font-size: 17px;
+}
+.homepage_texts__item h4 b {
+	font-size: 19px;
+}
+
+
+
+/* PARALLAX BOX #1 */
+.parallax_box__1 {
+	padding: 80px 0;
+}
+.parallax_box__1 h3 {
+	font-size: 55px;
+}
+.parallax_box__1 h4 {
+	font-size: 25px;
+}
+.parallax_box__1 .btn {
+	padding: 10px 20px;
+}
+
+
+
+/* 8.5 MAIN PRODUCT LISTING */
+
+/* HOMEPAGE CAROUSEL */
+.homepage_carousel .col-sm-3 {
+	width: 260px !important;
+}
+
+
+
+/* PARALLAX BOX #2 */
+.parallax_box__2 {
+	padding: 80px 0;
+}
+.parallax_box__2 h3 {
+	font-size: 55px;
+}
+.parallax_box__2 h4 {
+	font-size: 25px;
+}
+.parallax_box__2 .btn {
+	padding: 10px 20px;
+}
+
+
+
+/* HOMEPAGE SERVICES */
+#homepage_services h4 {
+	font-size: 18px;
+}
+#homepage_services h4 a {
+	margin: 0 0 0 7px;
+	font-size: 18px;
+}
+
+
+
+/* 8.6 FOOTER */
+
+/* 10.2 SIDEBAR PRODUCT LISTING */
+
+/* 12.1 PRODUCT IMAGES */
+.product_image-additioanl {
+	width: 229px !important;
+}
+
+
+
+/* 12.1 PRODUCT IMAGES */
+.zoomWrapper,
+#elevatezoom_big {
+	width: 262px !important;
+}
+
+#elevatezoom_gallery a {
+	width: 59px !important;
+}
+
+.zoomContainer {
+	display: none !important;
+}
+
+
+
+}
+
+
+
+/***************************************************************************
+                                < 767px
+***************************************************************************/
+
+@media (max-width: 767px) {
+	
+/* 6. GLOBAL PAGE LAYOUT */
+.container {
+	padding:0 15px;
+}
+
+.column_left,
+.column_right,
+.column_center,
+#main_content {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+
+
+/* 8.1 HEADER */
+#header_fixed {
+	position: relative !important;
+}
+
+.custom_header__1 {
+	font-size: 16px;
+}
+
+.header_row__2 {
+	height: auto;
+}
+
+#logo {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.header_search {
+	float: none;
+	margin: 0;
+}
+#header_search_trigger {
+	display: none !important;
+}
+#header_search_form {
+	width: 100% !important;
+	height: 50px !important;
+	display: block !important;
+	position: relative;
+	right: auto;
+	top: auto;
+}
+
+
+
+/* 8.2 MEGAMENU */
+#megamenu {
+  	width: 100%;
+	float: none;
+	position: relative !important;
+}
+.megamenu_mobile {
+	margin: 0;
+}
+
+
+
+/* 8.3 NIVOSLIDER */
+.slider_wrap {
+	padding: 0 15px;
+}
+
+.nivo-directionNav a {
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0 0;
+	padding: 0;
+	background: none;
+	background: #333333;
+	color: #ffffff;
+	text-align: center;
+}
+.nivo-directionNav a:hover {background: #11bf8a;}
+.nivo-directionNav a i {
+	font: 25px/39px "FontAwesome";
+}
+.nivo-directionNav a span {
+	display: none;
+}
+
+.nivo-caption {
+	margin: -35px 0 0 0;
+	padding: 0 80px;
+}
+.nivo-caption h2 {
+	font-size: 35px;
+}
+.nivo-caption h3 {
+	font-size: 18px;
+}
+
+
+
+/* 8.4 SHOWCASE */
+#showcase {
+	padding: 0 15px;
+}
+#showcase .row {
+	margin: 0 -5px;
+}
+#showcase .row > div {
+	padding: 0 5px;
+}
+
+.custom_showcase {
+	margin: 10px 0 0 0;
+}
+.custom_showcase a img {
+	-webkit-transform: scale(1) !important;
+			transform: scale(1) !important;
+	}
+.custom_showcase a div {
+}
+.custom_showcase a h3 {
+	font-size: 20px;
+}
+.custom_showcase a span {
+	margin: 0;
+	font-size: 16px;
+}
+
+
+
+/* HOMEPAGE TEXTS */
+#homepage_texts {
+	padding: 15px;
+}
+
+.homepage_texts__item {
+	margin: 0;
+	border: none;
+	border: 1px solid #cbcbcb;
+	border-width: 1px 0;
+}
+.homepage_texts__item ~ .homepage_texts__item {
+	border-width: 0 0 1px 0;
+}
+
+.homepage_texts__item h4 {
+	padding: 15px 0 20px 0;
+}
+
+
+
+/* PARALLAX BOX #1 */
+.parallax_box__1 {
+	padding: 40px 0;
+}
+.parallax_box__1 h3 {
+	font-size: 35px;
+}
+.parallax_box__1 h4 {
+	font-size: 16px;
+}
+.parallax_box__1 p {
+	font-size: 13px;
+	line-height: 1.2em;
+}
+.parallax_box__1 .btn {
+	padding: 10px 20px;
+}
+
+
+
+/* 8.5 MAIN PRODUCT LISTING */
+.product_listing_main .product {
+	margin: 15px 0 0 0;
+	overflow: hidden;
+}
+.product_listing_main .product > div {
+}
+
+.product_listing_main .product_img {
+	width: 120px;
+	float: left;
+}
+.product_listing_main .product_img .product_badge {
+	display: none;
+}
+
+.product_listing_main .product_img form {
+	top: auto;
+	bottom: 0;
+	opacity: .9 !important;
+	
+-webkit-transform: none !important;
+			transform: none !important;
+	}
+.product_listing_main .product_img form .btn {
+	width: 100%;
+	padding: 7px 0;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.product_listing_main .product_info {
+	margin: 0 0 0 135px;
+	text-align: left;
+}
+
+.product_listing_main .product_name {
+	margin: -3px 0 0 0;
+	padding: 0;
+}
+
+.product_listing_main .product_price {
+}
+
+
+
+/* HOMEPAGE CAROUSEL */
+.index-scope .bx-wrapper {
+	max-width: 767px !important;
+	margin: 0;
+}
+.index-scope .bx-viewport {
+	height: auto !important;
+}
+.index-scope .bx-controls {
+	display: none !important;
+}
+
+.homepage_carousel {
+	width: 100% !important;
+	max-width: 767px !important;
+	margin: 0;
+}
+.homepage_carousel .col-sm-3 {
+	width: 100% !important;
+	float: none;
+	padding: 0;
+}
+
+.homepage_carousel .product {
+	width: 50%;
+	float: left;
+	padding: 0 10px 0 0;
+}
+.homepage_carousel .product + .product {
+	padding: 0 0 0 10px;
+}
+
+.homepage_carousel .bx-clone {
+	display: none;
+}
+
+
+
+/* PARALLAX BOX #2 */
+.parallax_box__2 {
+	padding: 40px 0;
+}
+.parallax_box__2 h3 {
+	font-size: 35px;
+}
+.parallax_box__2 h4 {
+	font-size: 16px;
+}
+.parallax_box__2 p {
+	font-size: 13px;
+	line-height: 1.2em;
+}
+.parallax_box__2 .btn {
+	padding: 10px 20px;
+}
+
+
+
+/* 8.6 FOOTER */
+
+/* 10.2 SIDEBAR PRODUCT LISTING */
+.product_listing_sidebar .product {
+	overflow: hidden;
+	text-align: left;
+}
+.product_listing_sidebar .product_img {
+	width: 100px;
+	float: left;
+}
+.product_listing_sidebar .product_info {
+	margin: 0 0 0 115px;
+}
+
+
+
+/* 12.1 PRODUCT IMAGES */
+.zoomWrapper {
+	width: 290px !important;
+	margin: 0 auto;
+}
+#elevatezoom_big {
+	width: 290px !important;
+}
+
+.product_images .bx-wrapper {
+	width: 290px !important;
+	margin: 12px auto 0 auto;
+}
+
+#elevatezoom_gallery a {
+	width: 68px !important;
+}
+
+
+
+/* 12.2 PRODUCT INFO */
+.atractive_wrap .product_name {
+	margin: 0;
+	padding: 30px 0 0 0;
+}
+
+
+
+/* 15. CART PAGE */
+.cart_buttons {
+	text-align: center;
+}
+.cart_buttons span.or {
+	display: block;
+	margin: 5px 0;
+}
+
+/* 15.1 CART PRODUCTS */
+.item_image {
+	margin: 0 0 15px 0;
+}
+
+}
+
+
+
+/***************************************************************************
+                                < 640px
+***************************************************************************/
+
+@media (max-width: 640px) {
+	
+/* 8.1 HEADER */
+.header_row__1 .header_right {
+	text-align: center;
+}
+
+.header_user {
+	display: block;
+	float: none;
+	padding: 0 0 14px 0;
+	-webkit-box-shadow: 0 1px 0 0 rgba(255,255,255,.2);
+	        box-shadow: 0 1px 0 0 rgba(255,255,255,.2);
+	}
+
+.header_cart,
+a.checkout,
+.header_currency {
+	float: none;
+}
+
+
+
+/* HOMEPAGE CAROUSEL */
+.homepage_carousel .product {
+	width: 100%;
+	overflow: hidden;
+	float: none;
+	margin: 15px 0 0 0;
+	padding: 0 !important;
+}
+
+
+
+
+}
+
+
+
+/***************************************************************************
+                                < 480px
+***************************************************************************/
+
+@media (max-width: 480px) {
+	
+/* 8.3 NIVOSLIDER */
+.nivo-caption {
+	display: none !important;
+}
+
+
+
+/* 8.4 SHOWCASE */
+.custom_showcase a div {
+	margin: -10px 0 0 0;
+}
+.custom_showcase a h3 {
+	font-size: 15px;
+}
+.custom_showcase a span {
+	display: none;
+}
+
+
+
+/* 8.5 MAIN PRODUCT LISTING */
+.product_listing_main .product_img {
+	width: 100px;
+}
+.product_listing_main .product_info {
+	margin: 0 0 0 115px;
+}
+
+
+
+/* 12.1 PRODUCT IMAGES */
+.atractive_wrap .product_image {
+	width: 290px;
+}
+.product_image-additioanl {
+	width: 306px !important;
+}
+.atractive_wrap #bx-pager a {
+	width: 87px;
+	margin-right: 15px;
+}
+
+
+
+/* 14.2 ACCOUNT */
+.customer_name .divider {
+	display: none;
+}
+.customer_name .email {
+	display: block;
+}
+.customer_name a {
+	float: none;
+}
+
+}
+
+
+
+/***************************************************************************
+                                < 340px
+***************************************************************************/
+
+@media (max-width: 340px) {
+	
+
+
+}

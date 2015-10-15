@@ -1,0 +1,111 @@
+body {
+	overflow: hidden;
+	width: 100%;
+	}
+ul {
+	padding: 0;
+	margin: 0;
+	}
+a, strong {
+	color: #FFF;
+	}
+#preview {
+	width: 100%;
+	}
+
+#preview-bar {
+	background: #000;
+	border-bottom: 2px solid #3a3a3a;
+	min-width: 1070px;
+	}
+#bar-inner {
+	max-width: 1070px;
+	margin: 0 auto;
+	padding: 9px 0;
+	overflow: hidden;
+	color: #aba9a9;
+	}
+	#bar-inner li {
+		list-style: none;
+		}
+
+.block {
+	float: left;
+	height: 58px;
+	border-left: 1px solid #474747;
+	padding-left: 20px;
+	}
+	.block.inner {
+		padding-right: 20px;
+		}
+	.block.tm-logo {
+		border: none;
+		padding: 0 20px 0 0;
+		}
+	.block.info {
+		font-family: Tahoma, sans-serif;
+		font-size: 11px;
+		}
+		.block.info ul {
+			max-width: 136px;
+			}
+
+.buy {
+	display: block;
+	width: 176px;
+	height: 33px;
+	padding-top: 11px;
+	margin-top: 6px;
+	background: transparent url(../images/preview/buy-button.png) 0 0 no-repeat;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	color: #FFF;
+	}
+
+#sharer {
+	padding-top: 30px;
+	position: relative;
+	height: 28px;
+	}
+	#sharer li {
+		float: left;
+		max-width: 90px;
+		}
+
+#close {
+	position: absolute;
+	right: -80px;
+	top: 0;
+	padding: 1px 17px 0 0;
+	background: url(../images/preview/close.png) right top no-repeat;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #777;
+	height: 15px;
+	}
+
+span.old-price {
+	text-decoration: line-through;
+}
+
+.price-cur{
+	color:red;
+}
+
+#fullscreen-preview #preview-wrapper .technical-problems{
+    font-size: 24px;
+    color: #808080;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+}
+#fullscreen-preview #preview-wrapper .technical-problems a{
+    color: #808080 !important;
+    text-decoration: underline !important;
+}
+#fullscreen-preview #preview-wrapper .technical-problems .problems-message{
+     color: #B6B6B6 !important;
+ }

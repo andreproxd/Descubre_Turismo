@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.ec-stars-wrapper {
+  /* Espacio entre los inline-block (los hijos, los `a`) */
+  font-size: 0;
+  /* Podríamos quitarlo, pero de esta manera (siempre que no le demos padding), sólo aplicará la regla .ec-stars-wrapper:hover a cuando también se esté haciendo hover a alguna estrella */
+  display: inline-block;
+  /*
+   * El selector de hijo, es necesario para aumentar la especifidad
+   */
+}
+.ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  /* Volver a dar tamaño al texto */
+  font-size: 32px;
+  font-size: 3.5rem;
+  color: #11bf8a;
+  -moz-transition: text-shadow 0.5s ease;
+  -o-transition: text-shadow 0.5s ease;
+  -webkit-transition: text-shadow 0.5s ease;
+  transition: text-shadow 0.5s ease;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0.3);
+}
+.ec-stars-wrapper:hover a {
+  color: #11bf8a;
+  text-shadow: 0.2em 0.3em 0.2em rgba(0, 0, 0, 0.3);
+}
+.ec-stars-wrapper > a:hover ~ a {
+  color: #888;
+  text-shadow: none;
+}
