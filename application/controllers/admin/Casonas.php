@@ -7,12 +7,8 @@ class Casonas extends CI_Controller {
         $this->load->helper('url');
   }
    public function index() {
-        $data['content'] = 'application/views/public/casonas/casonas'; 
-        $this->load->view('public/principal',$data);
+        $data['content'] = 'application/views/admin/casonas/casonas_list'; 
+        $this->load->view('admin/index',$data);
     }
     
-    public function CasaBracamonte() {
-        $data['content'] = 'application/views/public/casonas/casabracamonte'; 
-        $this->load->view('public/principal',$data);
-    }
 }

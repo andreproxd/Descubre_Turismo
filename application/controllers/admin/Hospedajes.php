@@ -7,12 +7,8 @@ class Hospedajes extends CI_Controller {
         $this->load->helper('url');
   }
    public function index() {
-        $data['content'] = 'application/views/public/hospedajes/hospedajes'; 
-        $this->load->view('public/principal',$data); 
+        $data['content'] = 'application/views/admin/hospedajes/hospedajes_list'; 
+        $this->load->view('admin/index',$data); 
     }
-    
-        public function HosteriaElsol() {
-        $data['content'] = 'application/views/public/hospedajes/hosteriaelsol'; 
-        $this->load->view('public/principal',$data);
-    }
+
 }

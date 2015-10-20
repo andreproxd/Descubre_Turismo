@@ -7,12 +7,8 @@ class Restaurantes extends CI_Controller {
         $this->load->helper('url');
   }
    public function index() {
-        $data['content'] = 'application/views/public/restaurantes/restaurantes'; 
-        $this->load->view('public/principal',$data);
+        $data['content'] = 'application/views/admin/restaurantes/restaurantes_list'; 
+        $this->load->view('admin/index',$data);
     }
 
-        public function elmochica() {
-        $data['content'] = 'application/views/public/restaurantes/elmochica'; 
-        $this->load->view('public/principal',$data);
-    }
 }

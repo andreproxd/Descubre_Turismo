@@ -37,17 +37,6 @@
               <li><a href="<?php echo base_url(); ?>index.php/public/eventos/Religiosos">Religiosos</a></li>
               <li class="active"><a href="<?php echo base_url(); ?>index.php/public/eventos/Gastronomicos">Gastronomico</a></li>
             </ul>
-<!-- collection image & description -->
-<!-- products sorting -->
-            <div class="sort_by">
-              <label>Filtrar por</label> 
-              <select class="sort-by form-control">
-                <option value="title-ascending">Nombre: A-Z</option>
-                <option value="title-descending">Nombre: Z-A</option>
-                <option value="price-ascending">Costo: Menor a Mayor</option>
-                <option value="price-descending">Costo: Mayor a Menor</option>
-              </select>
-            </div>
             <script>
             Shopify.queryParams = {};
             if (location.search.length) {
