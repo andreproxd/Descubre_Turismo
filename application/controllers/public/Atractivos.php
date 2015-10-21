@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+uci<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
  
 class Atractivos extends CI_Controller {
  

@@ -37,18 +37,6 @@
               <li><a href="<?php echo base_url(); ?>index.php/public/atractivos/Arquitectura_Edificacion">Arquitectura y Edificaciones</a></li>
               <li><a href="<?php echo base_url(); ?>index.php/public/atractivos/Recursos_Naturales">Recursos Naturales</a></li>
             </ul>
-<!-- collection image & description -->
-<!-- products sorting -->
-            <div class="sort_by">
-              <label>Filtrar por</label> 
-              <select class="sort-by form-control">
-                <option value="manual">Destacado</option>
-                <option value="title-ascending">Nombre: A-Z</option>
-                <option value="title-descending">Nombre: Z-A</option>
-                <option value="price-ascending">Costo: Menor a Mayor</option>
-                <option value="price-descending">Costo: Mayor a Menor</option>
-              </select>
-            </div>
             <script>
             Shopify.queryParams = {};
             if (location.search.length) {

@@ -7,12 +7,16 @@ class Iglesias extends CI_Controller {
         $this->load->helper('url');
   }
    public function index() {
-        $data['content'] = 'application/views/public/iglesias/iglesias'; 
-        $this->load->view('public/principal',$data);  
+        $data['content'] = 'application/views/admin/iglesias/iglesias_list'; 
+        $this->load->view('admin/index',$data);  
+    }
+   public function create() {
+        $data['content'] = 'application/views/admin/iglesias/form'; 
+        $this->load->view('admin/index',$data);  
+    }
+   public function save() {
+        $data['content'] = 'application/views/admin/iglesias/iglesias_list'; 
+        $this->load->view('admin/index',$data);  
     }
     
-    public function SantaAna() {
-        $data['content'] = 'application/views/public/iglesias/iglesiassantaana'; 
-        $this->load->view('public/principal',$data);
-    }
 }

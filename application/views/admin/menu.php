@@ -39,13 +39,18 @@
                 <i class="fa fa-users"></i> <span>Control de Usuario</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li class="active"><a href="<?php echo base_url(); ?>index.php/admin/user"><i class="fa  fa-user-secret"></i> Administrador</a></li>
+                <li class="active"><a href="<?php echo base_url(); ?>index.php/admin/administrador"><i class="fa  fa-user-secret"></i> Administrador</a></li>
                 <li><a href="<?php echo base_url(); ?>index.php/admin/cliente"><i class="fa fa-user"></i> Cliente</a></li>
               </ul>
             </li>
             <li>
-              <a href="<?php echo base_url(); ?>index.php/admin/lugares">
+              <a href="<?php echo base_url(); ?>index.php/admin/lugar">
                  <i class="fa fa-map"></i> <span>Lugares</span>
+              </a>
+            </li>
+            <li>
+              <a href="<?php echo base_url(); ?>index.php/admin/provincias">
+                 <i class="fa-binoculars"></i> <span>Provincias</span>
               </a>
             </li>
             <li>
@@ -53,7 +58,7 @@
                 <i class="fa fa-suitcase"></i> <span>Atractivos Turisticos</span> 
               </a>
             </li>
-            <li class="treeview">
+            <li class=" active treeview">
               <a href="#">
                 <i class="fa fa-navicon"></i>
                 <span>Sitios Turisticos</span>
@@ -61,8 +66,8 @@
               </a>
               <ul class="treeview-menu">
                 <li><a href="<?php echo base_url(); ?>index.php/admin/casonas"><i class="fa fa-home"></i> Casonas</a></li>
-                <li><a href="<?php echo base_url(); ?>index.php/admin/iglesias"><i class="fa   fa-bell"></i> Iglesias</a></li>
-                <li><a href="<?php echo base_url(); ?>index.php/admin/museos"><i class="fa  fa-institution"></i> Museos</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/admin/iglesias"><i class="fa fa-bell"></i> Iglesias</a></li>
+                <li><a href="<?php echo base_url(); ?>index.php/admin/museos"><i class="fa fa-institution"></i> Museos</a></li>
               </ul>
             </li>
             <li>
@@ -95,6 +100,11 @@
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
             <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
             <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Information</span></a></li>
+              <br/>
+              <br/>
           </ul>
         </section>
         <!-- /.sidebar -->

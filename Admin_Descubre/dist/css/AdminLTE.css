@@ -2177,6 +2177,7 @@ a:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  font-weight:bold;
   border-width: 1px;
 }
 .btn:active {
@@ -2226,13 +2227,15 @@ a:focus {
   background-color: #367fa9;
 }
 .btn-success {
-  background-color: #00a65a;
-  border-color: #008d4c;
+    background-color: #222D32;
+    border-color: #222D32;
+    font-weight: bold;
 }
 .btn-success:hover,
 .btn-success:active,
 .btn-success.hover {
-  background-color: #008d4c;
+  background-color: #222D32;
+  opacity:0.9;
 }
 .btn-info {
   background-color: #00c0ef;
@@ -2241,7 +2244,7 @@ a:focus {
 .btn-info:hover,
 .btn-info:active,
 .btn-info.hover {
-  background-color: #00acd6;
+  background-color: #222D32;
 }
 .btn-danger {
   background-color: #dd4b39;
@@ -4725,5 +4728,9 @@ table.text-center th {
   .table-responsive > .table tr th,
   .table-responsive > .table tr td {
     white-space: normal!important;
+  }
+´´
+  .bold_text{
+   font-weight: bold;
   }
 }

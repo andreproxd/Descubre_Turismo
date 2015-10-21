@@ -57,6 +57,9 @@
                 <li class="Iglesias">
                     <a href="<?php echo base_url(); ?>index.php/public/iglesias">Iglesias</a>
                 </li>
+                <li class="Instituciones">
+                    <a href="<?php echo base_url(); ?>index.php/public/instituciones">Instituciones</a>
+                </li>
                 <li class="Hospedajes">
                     <a href="<?php echo base_url(); ?>index.php/public/hospedajes">Hospedajes</a>
                 </li>

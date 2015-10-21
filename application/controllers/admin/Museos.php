@@ -7,13 +7,16 @@ class Museos extends CI_Controller {
         $this->load->helper('url');
   }
    public function index() {
-        $data['content'] = 'application/views/public/museos/museos'; 
-        $this->load->view('public/principal',$data);  
+        $data['content'] = 'application/views/admin/museos/museos_list'; 
+        $this->load->view('admin/index',$data);  
+    }
+   public function create() {
+        $data['content'] = 'application/views/admin/museos/form'; 
+        $this->load->view('admin/index',$data);  
+    }
+   public function save() {
+        $data['content'] = 'application/views/admin/museos/museos_list'; 
+        $this->load->view('admin/index',$data);  
     }
     
-
-    public function MuseoJuguete() {
-        $data['content'] = 'application/views/public/museos/museodeljueguete'; 
-        $this->load->view('public/principal',$data);
-    }
 }

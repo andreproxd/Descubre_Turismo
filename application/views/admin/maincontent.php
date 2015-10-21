@@ -1,4 +1,4 @@
 
-<div class="col-md-9 col-sm-9 mainContent">
+<div class="col-md-12 col-sm-12 mainContent">
 	<?php include("${content}.php"); ?>
 </div>
