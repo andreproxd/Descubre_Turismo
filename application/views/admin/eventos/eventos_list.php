@@ -9,12 +9,12 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1><b>
-              Eventos</b>
+              Eventos y Festividades</b>
             <small>Mantenedor</small>
           </h1>
           <ol class="breadcrumb">
             <li><a href="#"> Inicio</a></li>
-            <li><a href="#"><i class="fa fa-calendar"></i>Eventos</a></li>
+            <li><a href="#"><i class="fa fa-calendar"></i>Eventos y Festividades</a></li>
             <li class="active"></li>
           </ol>
         </section>
@@ -30,7 +30,7 @@
                 </div><!-- /.box-header -->
                 <div class="row">
                 <div class="col-xs-3 col-xs-offset-2">
-                    <a href="<?php echo base_url(); ?>" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nuevo Evento</a>    
+                    <a href="<?php echo base_url(); ?>index.php/admin/eventos/create" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nuevo Evento</a>    
                 </div>
                 </div>
                 <div class="box-body table-responsive">
@@ -99,7 +99,7 @@
                             1
                         </td>
                         <td>
-                            <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
+                            <a href="" data-toggle="modal" data-target="#_eventos"<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
                             <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/deleteadm.png"/></a>
                         </td>
                       </tr>
@@ -137,8 +137,6 @@
 
     <!-- jQuery 2.1.4 -->
     <script src="<?php echo base_url(); ?>Admin_Descubre/plugins/jQuery/jQuery-2.1.4.min.js"></script>
-    <!-- Bootstrap 3.3.5 -->
-    <script src="<?php echo base_url(); ?>Admin_Descubre/bootstrap/js/bootstrap.min.js"></script>
     <!-- DataTables -->
     <script src="<?php echo base_url(); ?>Admin_Descubre/plugins/datatables/jquery.dataTables.min.js"></script>
     <script src="<?php echo base_url(); ?>Admin_Descubre/plugins/datatables/dataTables.bootstrap.min.js"></script>
@@ -165,5 +163,5 @@
       });
     </script>
   </body>
-            </div>
-  
+            </div>    
+    </body>

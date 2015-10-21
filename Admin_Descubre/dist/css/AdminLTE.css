@@ -2177,6 +2177,7 @@ a:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  font-weight:bold;
   border-width: 1px;
 }
 .btn:active {

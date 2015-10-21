@@ -10,5 +10,13 @@ class Museos extends CI_Controller {
         $data['content'] = 'application/views/admin/museos/museos_list'; 
         $this->load->view('admin/index',$data);  
     }
+   public function create() {
+        $data['content'] = 'application/views/admin/museos/form'; 
+        $this->load->view('admin/index',$data);  
+    }
+   public function save() {
+        $data['content'] = 'application/views/admin/museos/museos_list'; 
+        $this->load->view('admin/index',$data);  
+    }
     
 }

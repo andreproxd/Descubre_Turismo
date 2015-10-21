@@ -10,5 +10,13 @@ class Cliente extends CI_Controller {
         $data['content'] = 'application/views/admin/cliente/cliente_list'; 
         $this->load->view('admin/index',$data);
     }
+    public function create() {
+        $data['content'] = 'application/views/admin/cliente/form'; 
+        $this->load->view('admin/index',$data);
+    }
+    public function save() {
+        $data['content'] = 'application/views/admin/cliente/form'; 
+        $this->load->view('admin/index',$data);
+    }
     
 }

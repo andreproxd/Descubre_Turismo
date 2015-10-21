@@ -10,5 +10,13 @@ class Casonas extends CI_Controller {
         $data['content'] = 'application/views/admin/casonas/casonas_list'; 
         $this->load->view('admin/index',$data);
     }
+   public function create() {
+        $data['content'] = 'application/views/admin/casonas/form'; 
+        $this->load->view('admin/index',$data);
+    }
+   public function save() {
+        $data['content'] = 'application/views/admin/casonas/casonas_list'; 
+        $this->load->view('admin/index',$data);
+    }
     
 }

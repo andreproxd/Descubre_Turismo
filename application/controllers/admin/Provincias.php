@@ -11,7 +11,12 @@ class Provincias extends CI_Controller {
         $this->load->view('admin/index',$data);
     }
     
-    public function ascope() {
+    public function create() {
+        $data['content'] = 'application/views/admin/provincias/form'; 
+        $this->load->view('admin/index',$data);
+    }
+    
+    public function save() {
         $data['content'] = 'application/views/admin/provincias/provincias_list'; 
         $this->load->view('admin/index',$data);
     }

@@ -1,7 +1,7 @@
     <!-- DataTables -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>Admin_Descubre/plugins/datatables/dataTables.bootstrap.css">
   <body class="hold-transition skin-blue sidebar-mini">
-       <div class="col-md-12 ">
+       <div class="col-xs-12 ">
     <div class="wrapper">
 
       <!-- Content Wrapper. Contains page content -->
@@ -30,11 +30,11 @@
                 </div><!-- /.box-header -->
                 <div class="row">
                 <div class="col-xs-3 col-xs-offset-3">
-                    <a href="<?php echo base_url(); ?>" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nuevo Administrador</a>    
+                    <a href="<?php echo base_url(); ?>index.php/admin/administrador/create" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nuevo Administrador</a>    
                 </div>
                 </div>
                 <div class="box-body table-responsive">
-                  <table id="example1" class=" table-bordered col-md-12   ">
+                  <table id="example1" class=" table-bordered col-md-12">
                     <thead >
                       <tr>
                         <th>Email</th>
@@ -55,8 +55,8 @@
                             1
                         </td>
                         <td>
-                            <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
-                            <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/deleteadm.png"/></a>
+                            <a href="" data-toggle="modal" data-target="#_administrador"<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
+                            <a href=""<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/deleteadm.png"/></a>
                         </td>
                       </tr>
                     </tbody>
@@ -64,7 +64,6 @@
                       <tr>
                         <th>Email</th>
                         <th>Imagen</th>
-                        <th>Correo</th>
                         <th>Activo</th>
                         <th>Acciones</th>
                       </tr>
@@ -80,7 +79,7 @@
         <strong>Copyright &copy; 2015 <a href="http://descubre.descubrelalibertad.com">Descubre La Libertad</a>.</strong>Todos los derechos reservados.
       </footer>
     </div><!-- ./wrapper -->
-
+  <?php include("application/views/admin/administrador/_edit.php"); ?>
     <!-- jQuery 2.1.4 -->
     <script src="<?php echo base_url(); ?>Admin_Descubre/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
@@ -110,6 +109,6 @@
         });
       });
     </script>
-  </body>
+
             </div>
-  
+  </body>

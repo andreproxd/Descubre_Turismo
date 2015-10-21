@@ -10,5 +10,13 @@ class Administrador extends CI_Controller {
         $data['content'] = 'application/views/admin/administrador/administrador'; 
         $this->load->view('admin/index',$data);
     }
+    public function create() {
+        $data['content'] = 'application/views/admin/administrador/form'; 
+        $this->load->view('admin/index',$data);
+    }
+   public function save() {
+        $data['content'] = 'application/views/admin/administrador/administrador'; 
+        $this->load->view('admin/index',$data);
+    }
     
 }

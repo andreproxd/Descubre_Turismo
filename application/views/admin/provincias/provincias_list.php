@@ -14,7 +14,7 @@
           </h1>
           <ol class="breadcrumb">
             <li><a href="#">Inicio</a></li>
-            <li><a href="fa-binoculars"><i class="fa fa-bank"></i>Provincias</a></li>
+            <li><a href="fa-binoculars"><i class="fa-binoculars"></i>Provincias</a></li>
             <li class="active"></li>
           </ol>
         </section>
@@ -30,7 +30,7 @@
                 </div><!-- /.box-header -->
                 <div class="row">
                 <div class="col-xs-3 col-xs-offset-2">
-                    <a href="<?php echo base_url(); ?>" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nueva Provincia</a>    
+                    <a href="<?php echo base_url(); ?>index.php/admin/provincias/create" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nueva Provincia</a>    
                 </div>
                 </div>
                 <div class="box-body table-responsive">

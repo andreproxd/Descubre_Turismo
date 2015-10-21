@@ -91,7 +91,7 @@
                             1
                         </td>
                         <td>
-                            <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
+                            <a href="" data-toggle="modal" data-target="#_lugar"<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
                             <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/deleteadm.png"/></a>
                         </td>
                       </tr>
@@ -124,7 +124,7 @@
         <strong>Copyright &copy; 2015 <a href="http://descubre.descubrelalibertad.com">Descubre La Libertad</a>.</strong>Todos los derechos reservados.
       </footer>
     </div><!-- ./wrapper -->
-
+     <?php include("application/views/admin/lugar/_edit.php"); ?>
     <!-- jQuery 2.1.4 -->
     <script src="<?php echo base_url(); ?>Admin_Descubre/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->

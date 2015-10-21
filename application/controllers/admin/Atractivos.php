@@ -10,5 +10,15 @@ class Atractivos extends CI_Controller {
         $data['content'] = 'application/views/admin/atractivos/atractivos_list'; 
         $this->load->view('admin/index',$data);
     }
+    
+    public function create() {
+        $data['content'] = 'application/views/admin/atractivos/form'; 
+        $this->load->view('admin/index',$data);
+    }
+    
+    public function save() {
+        $data['content'] = 'application/views/admin/atractivos/atractivos_list'; 
+        $this->load->view('admin/index',$data);
+    }
 
   }

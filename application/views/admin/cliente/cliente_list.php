@@ -30,7 +30,7 @@
                 </div><!-- /.box-header -->
                 <div class="row">
                 <div class="col-xs-3 col-xs-offset-2">
-                    <a href="<?php echo base_url(); ?>" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nuevo Cliente</a>    
+                    <a href="<?php echo base_url();?>index.php/admin/cliente/create" class="btn btn-block btn-success btn-flat"><img src="<?php echo base_url(); ?>media/img/icon/admin/addadm2.png" align="left">Nuevo Cliente</a>    
                 </div>
                 </div>
                 <div class="box-body table-responsive">
@@ -67,7 +67,7 @@
                             1
                         </td>
                         <td>
-                            <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
+                            <a href="" data-toggle="modal" data-target="#_cliente"<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/editadm.png"/></a>
                             <a href<img src="<?php echo base_url(); ?>"/><img src="<?php echo base_url(); ?>media/img/icon/admin/deleteadm.png"/></a>
                         </td>
                       </tr>
@@ -94,7 +94,7 @@
         <strong>Copyright &copy; 2015 <a href="http://descubre.descubrelalibertad.com">Descubre La Libertad</a>.</strong>Todos los derechos reservados.
       </footer>
     </div><!-- ./wrapper -->
-
+  <?php include("application/views/admin/cliente/_edit.php"); ?>
     <!-- jQuery 2.1.4 -->
     <script src="<?php echo base_url(); ?>Admin_Descubre/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
@@ -124,6 +124,6 @@
         });
       });
     </script>
-  </body>
-            </div>
-  
+     </div>
+
+ </body>
