@@ -4,37 +4,42 @@
 <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->  
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
     <title>DESCUBRE LA LIBERTAD</title>
-<?php include("head.php")?>
+<?php include("head.php");?>
 <div id="wrapper">
 <div id="wrapper2">
 <?php include("header.php"); ?>
 <!-- BANNER -->
-    <div class="col-sm-12">
-        
-    <div class="slider_wrap">    
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-<li><img src="<?php echo base_url(); ?>media/img/banner/images/solylaluna.jpg" alt="Huacas del Sol y la Luna" title="Huacas del Sol y la Luna" id="wows1_0"/></li>
-<li><img src="<?php echo base_url(); ?>media/img/banner/images/huanchaco.jpg" alt="Huanchaco" title="Huanchaco" id="wows1_1"/></li>
-<li><img src="<?php echo base_url(); ?>media/img/banner/images/chanchan.jpg" alt="Ciudadela de Chan Chan" title="Ciudadela de Chan Chan" id="wows1_2"/></li>
-<li><img src="<?php echo base_url(); ?>media/img/banner/images/catedraltrujillo.jpg" alt="Catedral de Trujillo" title="Catedral de Trujillo" id="wows1_3"/></li>
-<li><img src="<?php echo base_url(); ?>media/img/banner/images/elbrujo.jpg" alt="Huaca El Brujo" title="Huaca El Brujo" id="wows1_4"/></li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#" title="Huacas del Sol y la Luna"><img src="<?php echo base_url(); ?>media/img/banner/tooltips/solylaluna.jpg" alt="Huacas del Sol y la Luna"/>1</a>
-<a href="#" title="Huanchaco"><img src="<?php echo base_url(); ?>media/img/banner/tooltips/huanchaco.jpg" alt="Huanchaco"/>2</a>
-<a href="#" title="Ciudadela de Chan Chan"><img src="<?php echo base_url(); ?>media/img/banner/tooltips/chanchan.jpg" alt="Ciudadela de Chan Chan"/>3</a>
-<a href="#" title="Catedral de Trujillo"><img src="<?php echo base_url(); ?>media/img/banner/tooltips/catedraltrujillo.jpg" alt="Catedral de Trujillo"/>4</a>
-<a href="#" title="Huaca El Brujo"><img src="<?php echo base_url(); ?>media/img/banner/tooltips/elbrujo.jpg" alt="Huaca El Brujo"/>5</a>
-</div></div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="<?php echo base_url(); ?>media/banner/wowslider.js"></script>
-	<script type="text/javascript" src="<?php echo base_url(); ?>media/banner/script.js"></script>
-    </div>	
-  </div>	
+<br/>
+        <div class="row">
+    <div class="col-sm-12 col-md-12 col-xs-12">
+
+    <div id="wowslider-container1">
+    <div class="ws_images"><ul>
+        <li><img src="<?php echo base_url(); ?>media/img/banner/images/catedraltrujillo.jpg" title="Catedral de Trujillo" id="wows1_0"/></li>
+        <li><img src="<?php echo base_url(); ?>media/img/banner/images/chanchan.jpg" alt="Complejo Arqueologico Chan Chan" title="Complejo Arqueologico Chan Chan" id="wows1_1"/></li>
+        <li><img src="<?php echo base_url(); ?>media/img/banner/images/elbrujo.jpg" alt="Complejo Arqueologico El Brujo" title="Complejo Arqueologico El Brujo" id="wows1_2"/></li>
+        <li><img src="<?php echo base_url(); ?>media/img/banner/images/huanchaco.jpg" alt="jquery slideshow" title="Balneario de Huanchaco" id="wows1_3"/></li>
+        <li><img src="<?php echo base_url(); ?>media/img/banner/images/solylaluna.jpg" alt="Huacas del Sol y La Luna" title="Huacas del Sol y La Luna" id="wows1_4"/></li>
+    </ul></div>
+
+
+    <div class="ws_bullets"><div>
+        <a href="#" title="Catedral de Trujillo"><span><img src="<?php echo base_url(); ?>media/img/banner/tooltips/catedraltrujillo.jpg" alt="Catedral de Trujillo"/>1</span></a>
+        <a href="#" title="Complejo Arqueologico Chan Chan"><span><img src="<?php echo base_url(); ?>media/img/banner/tooltips/chanchan.jpg" alt="Complejo Arqueologico Chan Chan"/>2</span></a>
+        <a href="#" title="Complejo Arqueologico El Brujo"><span><img src="<?php echo base_url(); ?>media/img/banner/tooltips/elbrujo.jpg" alt="Complejo Arqueologico El Brujo"/>3</span></a>
+        <a href="#" title="Balneario de Huanchaco"><span><img src="<?php echo base_url(); ?>media/img/banner/tooltips/huanchaco.jpg" alt="Balneario de Huanchaco"/>4</span></a>
+        <a href="#" title="Huacas del Sol y La Luna"><span><img src="<?php echo base_url(); ?>media/img/banner/tooltips/solylaluna.jpg" alt="Huacas del Sol y La Luna"/>5</span></a>
+    </div></div>
+
+    <div class="ws_shadow"></div>
+    </div>
+    <script type="text/javascript" src="<?php echo base_url(); ?>media/banner/wowslider.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>media/banner/script.js"></script>
+
+  </div>
+  </div>
 
   <!-- HOMEPAGE TEXTS -->
     <div id="homepage_texts">
@@ -48,7 +53,7 @@
                 </div>
                 <div class="wow col-sm-4 homepage_texts__item homepage_texts__3 animated">
                     <h4><b>DISFRUTA</b>De la cultura, historia y naturaleza</h4>
-                </div>   
+                </div>
             </div>
         </div>
     </div>
@@ -57,14 +62,14 @@
 <div class="container">
     <div class="row sidebar_left sidebar_off">
     <div class="column_center">
-    <div id="main_content" class="col-sm-12">
+    <div id="main_content" class="col-sm-12 col-md-12 col-xs-12">
             <div class="index-scope">
             <h2 class="page_heading" align="center">ATRACTIVOS TUR&Iacute;STICOS</h2>
             <div class="product_listing_main">
-	        <div class="col-sm-3">
+            <div class="col-sm-3 col-md-3 col-xs-12">
                    <div class="wow product animated">
-                        <div class="product_img ">
-                            <a class="img_change" href="<?php echo base_url(); ?>index.php/public/atractivos/chanchan">
+                        <div class="product_img img-responsive">
+                            <a class="img_change img-responsive" href="<?php echo base_url(); ?>index.php/public/atractivos/chanchan">
                                 <img src="<?php echo base_url(); ?>media/img/ATRACTIVOS_TURISTICOS/CHANCHAN1.jpg" />
                             </a>
                         </div>
@@ -99,7 +104,7 @@
                                 <a href="products/.php" style="text-decoration:none">HUACA ARCO IRIS</a>
                             </div>
                             <div class="product_desc">Esta huaca se destaca por su arquitectura e iconografía ...</div>
-                        </div>  
+                        </div>
                     </div>
             </div>
             <div class="col-sm-3">
@@ -223,7 +228,7 @@
                         </div>
                         <div class="product_desc">El nombre de Huanchaco viene de Guaukocha (hermosa laguna con peces dorados). ...</div>
                     </div>
-                </div>   
+                </div>
             </div>
                 <div class="col-sm-12 ">
                 <div class="pull-right vermas_atractivos">
@@ -234,7 +239,7 @@
         </div>
     </div>
     </div>
-	</div>
+    </div>
 </div>
 </div>
     <!-- HOMEPAGE SERVICES -->
@@ -289,11 +294,11 @@ function initialize() {
     var geocoder = new google.maps.Geocoder();
     var address = 'Times Square Manhattan, NY 10036';
     geocoder.geocode( { 'address': address}, function(results, status){
-		if (status == google.maps.GeocoderStatus.OK) {
-			map.setCenter(results[0].geometry.location);
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
             var marker = new google.maps.Marker({map: map, position: results[0].geometry.location, icon: markerImage });
         } else {
-			alert("Geocode was not successful for the following reason: " + status);
+            alert("Geocode was not successful for the following reason: " + status);
         }
     });
     var markerImage = new google.maps.MarkerImage(
@@ -310,7 +315,7 @@ function initialize() {
  <?php include("footer.php"); ?>
 </div><!-- / #wrapper2 -->
 </div><!-- / #wrapper -->
-<a id="back_top"  href="#"><img src="<?php echo base_url(); ?>media/img/icon/icon_subir.png" /></a>
+
 <!-- parallax -->
 <script src="//cdn.shopify.com/s/files/1/0815/1651/t/2/assets/jquery.parallax.js?5807396758501947651" type="text/javascript"></script>
 <script type="text/javascript">

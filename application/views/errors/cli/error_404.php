@@ -1,8 +1,5 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-
-echo "\nERROR: ",
-	$heading,
-	"\n\n",
-	$message,
-	"\n\n";
+{
+	"description": "The CodeIgniter framework",
+	"name": "codeigniter/framework",
+	"type": "project",
+	"homepage": "http://codeigniter.c

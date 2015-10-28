@@ -1,34 +1,34 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
- 
+
 class Auth extends CI_Controller {
- 
+
   function __construct() {
     parent::__construct();
 
-    $this->load->library("session");
+  //  $this->load->library("session");
     $this->load->helper('url');
 
   }
 
   public function index() {
-  
+
     $this->load->view('public/index');
   }
 
  /* public function login(){
       $this->load->library("gas");
-      include("application/models/Cliente.php"); 
-      
+      include("application/models/Cliente.php");
+
       $user= $this->input->post('email');
       $password =$this->input->post('password');
-      
+
       $clientes = Model\Cliente::find_by_email($user);
-      
+
       if ( count($clientes) == 0 ){
-        //No hay Usuarios, redirect   
-          
+        //No hay Usuarios, redirect
+
       }else{
-          
+
           if ( $clientes[0]->password == md5($password) ){
             $_SESSION['user']['idcliente'] = $clientes[0]->idcliente;
             $_SESSION['user']['email'] = $clientes[0]->email;
@@ -37,14 +37,14 @@ class Auth extends CI_Controller {
             $data = array(
                 'idcliente'=>$clientes[0]->idcliente,
                 'email'=>$user
-            );      
+            );
             $this->session->set_userdata($data);
             redirect("public/pedido/create");
             die();
           }
       }
 
-      
+
       redirect("Auth/index");
   }
 
@@ -55,21 +55,21 @@ class Auth extends CI_Controller {
      public function recovery(){
 
   }
-    
+
   public function password($key){
-        
+
         $this->load->library("gas");
         include("application/models/Cliente.php");
         $clientes = Model\Cliente::find_by_recovery($key);
         if ( count($clientes) == 0 ) die("NOT FOUND");
-      
+
         $cliente = $clientes[0];
         $data = array();
         $data['cliente'] = $cliente;
-      
+
         $this->load->view("public/cliente/cambiarpassword",$data);
   }
-    
+
     public function setPassword(){
         $this->load->library("gas");
         include("application/models/Cliente.php");
@@ -81,8 +81,8 @@ class Auth extends CI_Controller {
         $cliente->password = md5($this->input->post("password"));
         $cliente->recovery = "";
         $cliente->save();
-        
+
         redirect('Auth/index');
     }
-   */ 
+   */
 }
